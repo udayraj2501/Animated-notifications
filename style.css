@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.messenger{
+    font-size:100px;
+    
+}
+
+
+.container{
+    height:100vh;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+   
+}
+
+.icon{
+    padding:13px;
+    position:relative;
+}
+
+
+.message-count{
+    height:50px;
+    width:50px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+    font-weight:600;
+    background-color: red;
+    border-radius: 50%;
+    position:absolute;
+    top:0;
+    right:0;
+    display:none;
+}
+
+.notify_icon{
+   margin-top:30px;
+   padding:10px;
+   font-size:20px;
+   background-color:#0e5ce1 ;
+   color:white;
+   border:none;
+   border-radius:5px;
+}
